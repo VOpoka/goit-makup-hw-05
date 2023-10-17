@@ -554,7 +554,6 @@ address {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  pointer-events: none;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -698,7 +697,6 @@ address {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
   align-items: center;
   position: relative;
 }
@@ -707,7 +705,6 @@ address {
   text-decoration: underline;
 }
 .check-span {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
@@ -716,6 +713,7 @@ address {
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
   fill: transparent;
+  display: inline-flex;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
